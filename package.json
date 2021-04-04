@@ -1,0 +1,20 @@
+{
+  "name": "gongye-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "gongye-test": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
