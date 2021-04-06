@@ -20,6 +20,23 @@ inquirer.prompt([
 		type: 'input',
 		name: 'name',
 		message: 'Product name?'
+	},
+	{
+		type: 'input',
+		name: 'author',
+		message: 'Author name?'
+	},
+	{
+		type: 'input',
+		name: 'version',
+		message: 'Product version?',
+		default: '0.1.0'
+	},
+	{
+		type: 'input',
+		name: 'description',
+		message: 'Product description?',
+		default: ''
 	}
 ])
 .then(anwsers => {	// 根据用户的回答结果生成文件
